@@ -1,0 +1,17 @@
+.p{
+    background-color: aliceblue;
+    background-image: url("vote.jpg");
+    background-repeat: no-repeat;
+
+}
+
+.d{
+    background-color: rgb(88, 88, 94);
+    background-image: url("re.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh; 
+    width: 100vh;
+}
+

@@ -1,0 +1,74 @@
+.p{
+    background-color: aliceblue;
+}
+#r{
+    background-color:azure;
+}
+#div1{
+    height: 100px;
+    width:100px;
+    padding: 5px;
+    margin:5px;
+    background-color: red;
+    border: 5px solid black;
+    border-radius: 50%;
+}
+#div2{
+    height: 100px;
+    width:100px;
+    padding: 5px;
+    margin:5px;
+    background-color:yellow;
+    border: 5px solid black;
+    border-radius: 50%;
+
+}
+#div3{
+    height: 100px;
+    width:100px;
+    padding: 5px;
+    margin:5px;
+    background-color: green;
+    border: 5px solid black;
+    border-radius: 50%;
+
+}
+
+#div1:hover{
+    background-color: rgb(108, 174, 174);
+    box-shadow: 0x 5px 5px black;
+
+}
+#div2:hover{
+    background-color: rgb(206, 116, 206);
+    box-shadow: 0px 0px 5px black;
+}
+#div3:hover{
+    background-color: rgb(107, 107, 125);
+    box-shadow: 0px 0px 5px black;
+
+}
+#h1:hover{
+    text-transform: uppercase;
+    background-color: blue;
+    color:aliceblue;
+    text-align:center;
+    text-shadow:0px 0px 5px black;
+}
+body{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-shadow:1px 1px 2px yellowgreen;
+
+    background-image: url("");
+}
+#main{
+    justify-content: center;
+    align-items: center;
+    height: 375px;
+    width: 200px;
+    background-color: black;
+    padding:10px;
+    border-radius: 10px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to canteen</title>
+
+</head>
+<body>
+    <h2>welcome to canteen</h2>
+    <h1>menu</h1>
+   <label for="">idli-Rs30:</label>
+   <input type="number" name="" id="idli">
+   <label for="">Vadapav-Rs20:</label>
+   <input type="number" name="" id="vadapav">
+   <label for="">panipuri-Rs20:</label>
+   <input type="number" name="" id="panipuri">
+    <label for="">paratha-Rs50:</label>
+   <input type="number"name="" id="paratha">
+    <label for="">pavbhaji-Rs45:</label>
+   <input type="number" name="" id="pavbhaji">
+    <label for="">bhel-Rs50:</label>
+   <input type="number" name="" id="bhel">
+    <label for="">puranpoli-Rs70:</label>
+   <input type="number" name="" id="puranpoli">
+    <label for="">dayspecial-Rs150:</label>
+   <input type="number" name="" id="day">
+   <button onclick="bill()">submit</button>
+
+   <script>
+    function bill(){
+        var idli=document.getElementByid("idli").value;
+        var vadapav=document.getElementByid("vadapav").value;
+        var panipuri=document.getElementByid("panipuri").value;
+        var paratha=document.getElementByid("paratha").value;
+        var pavbhaji=document.getElementByid("pavbhaji").value;
+        var bhel=document.getElementByid("bhel").value;
+        var puranpoli=document.getElementByid("puranpoli").value;
+        var dayspecial=document.getElementByid("day").value;
+        var total=(idli*30)+(vadapav*20)+(panipuri*20)+(paratha*50)+(pavbhaji*45)+(bhel*50)+(puranpoli*70)+(day*150);
+        alert("total amount"+total);
+
+    }
+    
+   </script>
+    
+    
+</body>
+</html>
